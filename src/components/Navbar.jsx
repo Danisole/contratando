@@ -89,7 +89,7 @@ const Navbar = () => {
                 to={path} spy={true} smooth={true} offset={-90}
                 key={link} 
                 onClick={toggleMenu}
-                className="block  text-white hover:text-gray-500"
+                className="block  text-white hover:text-blue-800"
                 >
                 {link}
               </Link> )
