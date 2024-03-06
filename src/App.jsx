@@ -8,7 +8,7 @@ import Navbar from "./components/Navbar";
 import Newsletter from "./components/Newsletter";
 import Product from "./components/Product";
 import Whatsapp from "./components/Whatsapp"
-import Services from "./components/Services";
+// import Services from "./components/Services";
 
 
 function App() {
@@ -18,8 +18,8 @@ function App() {
     <>
       <Navbar/>
       <Home/>
-      <Services/>
       <Nosotros/>
+      {/* <Services/> */}
       <Product/>
       <Blog/>
       <Newsletter/>

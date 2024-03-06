@@ -30,7 +30,7 @@ const Blog = () => {
             </motion.div>
 
             {/* all blogs */}
-            <motion.div 
+            {/* <motion.div 
             variants={fadeIn("right", 0.3)}
             initial="hidden"
             whileInView={"show"}
@@ -64,7 +64,7 @@ const Blog = () => {
                         </div>
                     </div>)
                 }
-            </motion.div>
+            </motion.div> */}
 
         </div>
     );

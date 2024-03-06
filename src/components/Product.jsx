@@ -28,26 +28,21 @@ const Product = () => {
           viewport={{ once: false, amount: 0.7 }}
           className="md:w-3/5 mx-auto">
             <h2 className="text-4xl text-neutralDGrey font-semibold mb-4 md:w-4/5">
-              How to design your site footer like we did
+              Suscribete a CONTRATANDO
             </h2>
             <p className="md:w-3/4 text-sm text-neutralGrey mb-8">
-              Donec a eros justo. Fusce egestas tristique ultrices. Nam tempor,
-              augue nec tincidunt molestie, massa nunc varius arcu, at
-              scelerisque elit erat a magna. Donec quis erat at libero ultrices
-              mollis. In hac habitasse platea dictumst. Vivamus vehicula leo
-              dui, at porta nisi facilisis finibus. In euismod augue vitae nisi
-              ultricies, non aliquet urna tincidunt. Integer in nisi eget nulla
-              commodo faucibus efficitur quis massa. Praesent felis est, finibus
-              et nisi ac, hendrerit venenatis libero. Donec consectetur faucibus
-              ipsum id gravida.
+              Suscribete asi poder ser uno de los profesionales acreditados que integran nuestra base de datos
             </p>
-            <button className="btn-primary">Learn More</button>
+            
+              <button className="btn-primary ml-20 mr-20">Individuo</button>
+              <button className="btn-primary">Empresa</button>
+            
           </motion.div>
         </div>
       </div>
 
       {/* company stats */}
-      <motion.div
+      {/* <motion.div
       variants={fadeIn("up", 0.3)}
       initial="hidden"
       whileInView={"show"}
@@ -58,7 +53,7 @@ const Product = () => {
             <img src={Maecenas} alt="" />
           </div>
 
-          {/* stats */}
+          
           <div className="md:w-2/3 mx-auto">
             <div>
               <p className="md:w-4/5 text-sm text-neutralGrey mb-8 leading-6">
@@ -109,7 +104,7 @@ const Product = () => {
             </div>
           </div>
         </div>
-      </motion.div>
+      </motion.div> */}
     </div>
   );
 };

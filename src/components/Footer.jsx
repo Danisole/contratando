@@ -9,7 +9,7 @@ import {
   BsTwitter,
 } from "react-icons/bs";
 import { SiMinutemailer } from "react-icons/si";
-import logo from "../assets/logo.png";
+// import logo from "../assets/logo.png";
 
 const MyFooter = () => {
   return (
@@ -21,15 +21,15 @@ const MyFooter = () => {
               href=""
               className="text-2xl font-semibold flex items-center space-x-3"
             >
-              <img
+              {/* <img
                 src={logo}
                 alt=""
                 className="w-10 inline-block items-center"
-              />
-              <span>NEXCENT</span>
+              /> */}
+              <span>CONTRATANDO</span>
             </a>
             <div className="my-8">
-              <p className="mb-1"> Copyright © 2020 Nexcent ltd.</p>
+              <p className="mb-1"> Copyright © 2024 CONTRATANDO.</p>
               <p>All rights reserved</p>
             </div>
 
