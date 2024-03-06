@@ -38,7 +38,7 @@ const Navbar = () => {
     // {link: "Service", path: "service" },
     {link: "Nosotros", path: "nosotros" },
     {link: "Suscribete", path: "suscribete" },
-    // {link: "Testimonial", path: "testimonial" },
+    // {link: "", path: "testimonial" },
     {link: "FAQ", path: "faq" },
   ];
   return (

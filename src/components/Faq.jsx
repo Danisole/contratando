@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 // variants
 import { fadeIn } from "../variants";
 
-const Blog = () => {
+const Faq = () => {
     const blogs = [
         {id: 1, title: "Creating Streamlined Safeguarding Processes with OneRen", image: "/src/assets/blog1.png"},
         {id: 2, title: "What are your safeguarding responsibilities and how can you manage them?", image: "/src/assets/blog2.png"},
@@ -70,4 +70,4 @@ const Blog = () => {
     );
 };
 
-export default Blog;
+export default Faq;
