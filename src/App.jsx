@@ -23,8 +23,8 @@ function App() {
       <Product/>
       <Blog/>
       <Newsletter/>
-      <Whatsapp/>
       <MyFooter/>
+      <Whatsapp/>
     </>
   );
 }
