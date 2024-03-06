@@ -21,12 +21,12 @@ const Blog = () => {
             viewport={{ once: false, amount: 0.6 }}
             
             className='text-center md:w-1/2 mx-auto'>
-            <h2 className="text-4xl text-neutralDGrey font-semibold mb-4">
-            Caring is the new marketing
-            </h2>
-            <p className="text-sm text-neutralGrey mb-8 md:w-3/4 mx-auto">
-            The Nexcent blog is the best place to read about the latest membership insights, trends and more. See who is joining the community, read about how our community are increasing their membership income and lot is more.
-            </p>
+                <h2 className="text-4xl text-neutralDGrey font-semibold mb-4">
+                Preguntas Frecuentes
+                </h2>
+                <p className="text-sm text-neutralGrey mb-8 md:w-3/4 mx-auto">
+                Respuestas rápidas a tus preguntas sobre CONTRATANDO. Encuentra lo que necesitas saber en nuestra sección de preguntas frecuentes.
+                </p>
             </motion.div>
 
             {/* all blogs */}

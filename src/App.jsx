@@ -1,4 +1,3 @@
-
 import "./App.css";
 import Nosotros from "./components/Nosotros";
 import Blog from "./components/Blog";
@@ -7,9 +6,10 @@ import Footer from "./components/Footer";
 import Home from "./components/Home";
 import Navbar from "./components/Navbar";
 import Newsletter from "./components/Newsletter";
-// import Product from "./components/Product";
-import Registrate from "./components/Registrate";
-import WhatsappBtn from "./components/Watsapp";
+import Product from "./components/Product";
+import Whatsapp from "./components/Whatsapp"
+import Services from "./components/Services";
+
 
 function App() {
 
@@ -18,12 +18,12 @@ function App() {
     <>
       <Navbar/>
       <Home/>
-      <Registrate/>
+      <Services/>
       <Nosotros/>
-      {/* <Product/> */}
+      <Product/>
       <Blog/>
       <Newsletter/>
-      <WhatsappBtn/>
+      <Whatsapp/>
       <MyFooter/>
     </>
   );

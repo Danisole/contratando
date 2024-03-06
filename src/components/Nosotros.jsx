@@ -8,7 +8,7 @@ import { motion } from "framer-motion";
 import { fadeIn } from "../variants";
 
 
-const About = () => {
+const Nosotros = () => {
   return (
     <div>
         {/* about text */}
@@ -101,4 +101,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default Nosotros;

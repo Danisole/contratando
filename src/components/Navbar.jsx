@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import logo from '../assets/logo.png'
+// import logo from '../assets/logo.png'
 
 import { Link } from "react-scroll";
 
@@ -35,9 +35,9 @@ const Navbar = () => {
 
   const navItems = [
     {link: "Home", path: "home" },
-    {link: "Registrate", path: "registrate" },
-    {link: "Nosotros", path: "Nosotros" },
-    // {link: "Product", path: "product" },
+    {link: "Service", path: "service" },
+    {link: "Nosotros", path: "nosotros" },
+    {link: "Product", path: "product" },
     {link: "Testimonial", path: "testimonial" },
     {link: "FAQ", path: "faq" },
   ];
@@ -47,7 +47,10 @@ const Navbar = () => {
           isSticky ? "sticky top-0 right-0 left-0 border bg-white transition-all duration-300" : ""
         }`}>
         <div className="flex justify-between items-center text-base gap-8">
-          <a href="" className="text-2xl font-semibold flex items-center space-x-3"><img src={logo} alt="" className="w-10 inline-block items-center"/><span>CONTRATANDO</span></a>
+          <a href="" className="text-2xl font-semibold flex items-center space-x-3">
+            {/* <img src={logo} alt="" className="w-10 inline-block items-center"/> */}
+            <span>CONTRATANDO</span>
+          </a>
 
           <ul className="md:flex space-x-12 hidden">
             
