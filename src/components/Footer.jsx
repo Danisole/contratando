@@ -42,7 +42,7 @@ const MyFooter = () => {
           </div>
           <div className="md:w-2/3 grid grid-cols-2 gap-8 items-start sm:mt-4 sm:grid-cols-3 sm:gap-6 text-white">
             <div>
-              <Footer.Title title="Company" className="text-white" />
+              <Footer.Title title="Company" className="text-white focus:outline-none" />
               <Footer.LinkGroup col>
                 <Footer.Link href="#" className="text-white">
                   About us

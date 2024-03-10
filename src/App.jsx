@@ -9,6 +9,7 @@ import Video from "./components/Video";
 import Suscribete from "./components/Suscribete";
 import Whatsapp from "./components/Whatsapp"
 import Faq from "./components/Faq";
+import Form from "./components/contacto/Form";
 // import Services from "./components/Services";
 
 
@@ -23,6 +24,7 @@ function App() {
       {/* <Services/> */}
       <Suscribete/>
       <Faq/>
+      <Form/>
       <Video/>
       <MyFooter/>
       <Whatsapp/>
