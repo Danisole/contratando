@@ -11,6 +11,7 @@ const Form = () => {
     const { control,
             handleSubmit,
             formState: { errors },
+            reset 
         } = useForm({
         defaultValues: {
             name:'',
@@ -19,7 +20,10 @@ const Form = () => {
         },
     })
 
-    const onSubmit = data => console.log(data);
+    const onSubmit = data => {
+        console.log(data);
+        reset();
+    }
 
   return (
     <div className='xl:container mx-auto mb-32'>
@@ -30,7 +34,7 @@ const Form = () => {
                 height: '250px',
             }}
         >
-            <h6 className='text-2xl sm:text-4xl text-neutralDGrey font-semibold uppercase pt-12'>Contacto</h6>
+            <h6 className='text-3xl sm:text-4xl text-neutralDGrey font-semibold uppercase pt-12'>Contacto</h6>
         </div>
         <div className='px-4 sm:w-2/3 lg:w-1/2 mx-auto'>
             <div className='rounded-lg shadow-lg bg-white -mt-24 py-10 md:py-12 px-4 md:px-6'>
