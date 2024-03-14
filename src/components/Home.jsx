@@ -19,7 +19,7 @@ const Home = () => {
            <div className="md:w-1/2">
             <h1 className="text-4xl mb-4 font-semibold text-neutralDGrey md:w-3/4 leading-snug">Bienvenidos a CONTRATANDO <span className="text-brandPrimary leading-snug">Haz realidad tus proyectos</span></h1>
             <p className="text-neutralGrey text-base mb-8">Conectando usuarios con profesionales de San Juan</p>
-            <button className="px-7 py-2 bg-brandPrimary text-white rounded-lg hover:bg-neutralDGrey">Registrate</button>
+            <button className="px-7 py-2 bg-brandPrimary text-white rounded-full hover:bg-neutralDGrey">Registrate</button>
            </div>
           </div>
           <div className="my-16 md:my-8 py-12 flex flex-col w-full mx-auto md:flex-row-reverse items-center justify-between gap-12">
@@ -30,7 +30,7 @@ const Home = () => {
            <div className="md:w-1/2">
             <h1 className="text-4xl mb-4 font-semibold text-neutralDGrey md:w-3/4 leading-snug">Profesionales capacitados en <span className="text-brandPrimary leading-snug">CONTRATANDO</span></h1>
             <p className="text-neutralGrey text-base mb-8">A un click de distancia</p>
-            <button className="px-7 py-2 bg-brandPrimary text-white rounded-lg hover:bg-neutralDGrey">Contactanos</button>
+            <button className="px-7 py-2 bg-brandPrimary text-white rounded-full hover:bg-neutralDGrey">Contactanos</button>
            </div>
           </div>
           <div className="my-16 md:my-8 py-12 flex flex-col w-full mx-auto md:flex-row-reverse items-center justify-between gap-12">
@@ -41,7 +41,7 @@ const Home = () => {
            <div className="md:w-1/2">
             <h1 className="text-4xl mb-4 font-semibold text-neutralDGrey md:w-3/4 leading-snug">Simplifica tu búsqueda y contratación con  <span className="text-brandPrimary leading-snug">CONTRATANDO</span></h1>
             <p className="text-neutralGrey text-base mb-8">Plataforma segura y gratuita</p>
-            <button className="px-7 py-2 bg-brandPrimary text-white rounded-lg hover:bg-neutralDGrey">Registrate</button>
+            <button className="px-7 py-2 bg-brandPrimary text-white rounded-full hover:bg-neutralDGrey">Registrate</button>
            </div>
           </div>
         </Carousel>

@@ -16,7 +16,7 @@ const Faq = () => {
             whileInView={"show"}
             viewport={{ once: false, amount: 0.6 }}
             
-            className='text-center md:w-1/2 mx-auto'>
+            className='text-center md:w-1/1 mx-auto'>
                 <h2 className="text-4xl text-neutralDGrey font-semibold mb-4">
                 Preguntas Frecuentes
                 </h2>

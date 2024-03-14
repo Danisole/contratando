@@ -37,7 +37,7 @@ const Nosotros = () => {
             la búsqueda y contratación, priorizando la transparencia y la confianza. 
             Únete a nuestra comunidad para descubrir un mundo donde tus proyectos se hacen realidad.
             </p>
-            <button className="btn-primary">Siguenos</button>
+            <button className="btn-primary rounded-full">Siguenos</button>
           </motion.div>
         </div>
       </div>

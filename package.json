@@ -18,7 +18,8 @@
     "react-floating-whatsapp": "^5.0.8",
     "react-hook-form": "^7.51.0",
     "react-icons": "^4.10.1",
-    "react-scroll": "^1.8.9"
+    "react-scroll": "^1.8.9",
+    "react-toastify": "^10.0.4"
   },
   "devDependencies": {
     "@types/react": "^18.2.15",

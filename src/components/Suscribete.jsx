@@ -1,6 +1,6 @@
 import React from "react";
 import aboutImg from "../assets/mobile-login.png";
-import Maecenas from '../assets/maecenas.png'
+
 
 // motion
 import { motion } from "framer-motion";
@@ -34,8 +34,8 @@ const Suscribete = () => {
               Suscribete asi poder ser uno de los profesionales acreditados que integran nuestra base de datos
             </p>
             
-              <button className="btn-primary ml-20 mr-20">Individuo</button>
-              <button className="btn-primary">Empresa</button>
+              <button className="btn-primary ml-20 mr-20 rounded-full">Individuo</button>
+              <button className="btn-primary rounded-full">Empresa</button>
             
           </motion.div>
         </div>

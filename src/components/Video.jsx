@@ -20,7 +20,7 @@ const Newsletter = () => {
             Video explicativo CONTRATANDO
           </h2>
           <div className="flex gap-8 items-center justify-center">
-            <button className="btn-primary text-white">
+            <button className="btn-primary text-white rounded-full">
             Video
               <svg
                 xmlns="http://www.w3.org/2000/svg"

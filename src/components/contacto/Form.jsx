@@ -39,8 +39,8 @@ const Form = () => {
         <div className='px-4 sm:w-2/3 lg:w-1/2 mx-auto'>
             <div className='rounded-lg shadow-lg bg-white -mt-24 py-10 md:py-12 px-4 md:px-6'>
                 <div className='grid grid-cols-2 gap-x-6 mb-12 mx-auto'>
-                    <IconInfo icon={<IconEmail/>} text="ifo@contratando.com"/>
-                    <IconInfo icon={<IconPhone/>} text="+54 9 264 5042782"/>
+                    <a href="mailto:danisole82@gmail.com" target={"_blanc"}><IconInfo icon={<IconEmail/>} text="ifo@contratando.com"/></a>
+                    <a  href="https://api.whatsapp.com/send?phone=5492645042782" target={"_blanc"}><IconInfo icon={<IconPhone/>} text="+5492645042782"/></a>                    
                 </div>
                 <div>
                 <form onSubmit={handleSubmit(onSubmit)}>
@@ -87,7 +87,7 @@ const Form = () => {
                                 />
                                 )}
                         />
-                        <button type='submit' className='w-full px-6 py-3 bg-brandPrimary  text-white font-medium uppercase rounded-lg shadow-md hover:bg-blue-900 hover:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-900'>
+                        <button type='submit' className='w-full px-6 py-3 bg-brandPrimary  text-white font-medium uppercase rounded-full shadow-md hover:bg-blue-900 hover:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-900'>
                             Enviar
                         </button>
 
