@@ -1,13 +1,15 @@
 import React from "react";
 import aboutImg from "../assets/mobile-login.png";
 
-
 // motion
 import { motion } from "framer-motion";
 // variants
 import { fadeIn } from "../variants";
 
+
 const Suscribete = () => {
+
+ 
   return (
     <div className="my-12" id="suscribete">
       {/* about text */}
@@ -27,16 +29,28 @@ const Suscribete = () => {
           whileInView={"show"}
           viewport={{ once: false, amount: 0.7 }}
           className="md:w-3/5 mx-auto">
-            <h2 className="text-4xl text-neutralDGrey font-semibold mb-4 md:w-4/5">
-              Suscribete a CONTRATANDO
-            </h2>
-            <p className="md:w-3/4 text-sm text-neutralGrey mb-8">
-              Suscribete asi poder ser uno de los profesionales acreditados que integran nuestra base de datos
-            </p>
-            
-              <button className="btn-primary ml-20 mr-20 rounded-full">Individuo</button>
-              <button className="btn-primary rounded-full">Empresa</button>
-            
+            <div className="text-center">
+              <h2 className="text-4xl text-neutralDGrey font-semibold mb-4 md:w-4/5">
+                Suscribete a CONTRATANDO
+              </h2>
+              <p className="md:w-3/4 text-sm text-neutralGrey mb-8">
+                Suscribete asi poder ser uno de los profesionales acreditados que integran nuestra base de datos
+              </p>
+            </div>  
+              
+
+              <div className="flex flex-row justify-center items-center">
+                <button className="btn-primary mr-20 rounded-lg flex flex-col justify-center items-center">
+                  Individuo 
+                  <ion-icon name="person-outline"></ion-icon>             
+                </button>
+                <button className="btn-primary rounded-lg flex flex-col justify-center items-center">
+                  Empresa
+                  <ion-icon name="business-outline"></ion-icon>
+                </button>
+              
+              </div>
+              
           </motion.div>
         </div>
       </div>
