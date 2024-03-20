@@ -26,7 +26,7 @@ const Form = () => {
     }
 
   return (
-    <div className='xl:container mx-auto mb-32'>
+    <div className='xl:container mx-auto mb-32' id='contacto'>
         <div
             className='flex justify-center'
             style={{

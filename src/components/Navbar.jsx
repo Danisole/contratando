@@ -1,11 +1,10 @@
 import { useEffect, useState } from "react";
 // import logo from '../assets/logo.png'
-
 import { Link } from "react-scroll";
-
 // import icons from react icons
 import { GrLanguage } from "react-icons/gr";
 import { FaXmark, FaBars } from "react-icons/fa6";
+
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -35,9 +34,9 @@ const Navbar = () => {
 
   const navItems = [
     {link: "Home", path: "home" },
-    // {link: "Service", path: "service" },
     {link: "Nosotros", path: "nosotros" },
     {link: "Suscribete", path: "suscribete" },
+    {link: "Contacto", path: "contacto" },
     // {link: "", path: "testimonial" },
     {link: "FAQ", path: "faq" },
   ];
