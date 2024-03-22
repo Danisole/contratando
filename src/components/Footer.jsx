@@ -9,7 +9,7 @@ import {
   BsTwitter,
 } from "react-icons/bs";
 import { SiMinutemailer } from "react-icons/si";
-// import logo from "../assets/logo.png";
+import logo1 from "../assets/logo1.png";
 
 const MyFooter = () => {
   return (
@@ -21,12 +21,12 @@ const MyFooter = () => {
               href=""
               className="text-2xl font-semibold flex items-center space-x-3"
             >
-              {/* <img
-                src={logo}
+              <img
+                src={logo1}
                 alt=""
-                className="w-10 inline-block items-center"
-              /> */}
-              <span>CONTRATANDO</span>
+                className="w-60 inline-block items-center"
+              />
+              
             </a>
             <div className="my-8">
               <p className="mb-1"> Copyright © 2024 CONTRATANDO.</p>

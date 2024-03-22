@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-// import logo from '../assets/logo.png'
+import logo from '../assets/logo.png'
 import { Link } from "react-scroll";
 // import icons from react icons
 import { GrLanguage } from "react-icons/gr";
@@ -47,8 +47,7 @@ const Navbar = () => {
         }`}>
         <div className="flex justify-between items-center text-base gap-8">
           <a href="" className="text-2xl font-semibold flex items-center space-x-3">
-            {/* <img src={logo} alt="" className="w-10 inline-block items-center"/> */}
-            <span>CONTRATANDO</span>
+            <img src={logo} alt="" className="w-60 inline-block items-center"/>
           </a>
 
           <ul className="md:flex space-x-12 hidden">
